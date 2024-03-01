@@ -1,0 +1,154 @@
+/* body */
+body{
+    background-color: peachpuff;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    border-right: 1px solid #bbb;
+    flex-grow: 1;
+}
+
+li:last-child, footer li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+li a:hover{
+    background-color: #555;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    ul, footer ul {
+        flex-direction: column;
+    }
+}
+
+/*Company Name */
+
+.company_banner{
+    background-color: tan;
+    text-align: center;
+    color: maroon;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Company Slogan and Message */
+
+.company_slogan{
+    color: #ED1D24;    
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+}
+
+.company_message{
+    color:maroon;
+    width:80%;
+    font-size: 1.20em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*Company Flexbox Images Set 1 */
+.company_images{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.wine_glass_upclose, .bartender_upclose, .food_entree{
+    max-width: 525px;
+    max-height: 525px;
+}
+
+.flexbox1, .flexbox2, .flexbox3{
+    margin-right: 45px;
+    margin-left: 50px;
+}
+
+/* Customer Statement */
+.customer_statement{
+    background-color: #F9E9C9;
+    padding-bottom: 50px;
+}
+
+.statement{
+    font-size:1.75rem;
+    font-family: 'Libre Baskerville', serif;
+    color: maroon;
+}
+
+.customer_name{
+    font-size:1.15rem;
+    font-family: 'Playfair Display', serif;
+    color: maroon;
+}
+
+/*Company Flexbox Images Set 2 */
+
+.company_images_2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bartenders, .dining_table, .cocktail_drinks{
+    max-width:500px;
+    max-height: auto;
+}
+
+.flexbox4, .flexbox5, .flexbox6{
+    margin-right: 45px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/*book_vacation*/
+
+.webpage_bottom_text{
+    text-align: center;
+    font-size: 1.80rem;
+    color: maroon;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 25px;
+}
+
+
+.join_team_image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service_table_set{
+    max-width: 900px;
+    max-height: 900px;
+}
